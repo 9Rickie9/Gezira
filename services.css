@@ -1,0 +1,82 @@
+body{
+    background-color: lightgray;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(Gezira_logo.png);
+            background-color: white;
+            text-align: center;
+            background-position: center;
+            background-size: cover;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #ff9800;
+        }
+        .services, .experience-education {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .card {
+            background: rgb(209, 120, 120);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 250px;
+        }
+        .experience-education {
+            margin-top: 40px;
+        }
+        .half-width {
+            flex: 1;
+            min-width: 300px;
+        }
+        @media (max-width: 768px) {
+            .services, .experience-education {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: rgb(249, 248, 248);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #8dad35;
+            transition: 0.3s;
+        }
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}    
+.left{
+    left: 30px;
+}
+.right{
+    right: 30px;
+}
+
+   
